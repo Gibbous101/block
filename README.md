@@ -394,4 +394,5 @@ src="https://cdn.jsdelivr.net/npm/web3@1.7.0/dist/web3.min.js"></script>
     </body> 
     </html> 
 
-||live server on||
+||cmd||
+npx lite-server
