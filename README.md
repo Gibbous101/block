@@ -167,6 +167,7 @@ contract SimpleStaking{
     function stake(uint256 amount) external {
         require(amount>0,"Zero amount");
         token.transferFrom(msg.sender, address(this), amount);
+        stakes[msg.sender]+=amount;
     }
 
 
